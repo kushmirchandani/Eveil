@@ -90,24 +90,24 @@ final class AlarmOrchestrator {
             // Kill the alarm and re-arm the sensor for return-to-bed detection
             ble.send("ALARM KILL")
             isDeviceAlarmActive = false
-//            ble.send("ARM")
+            ble.send("ARM")
 
-//            // Watch for 30 s — if pressure returns, re-fire the device alarm
-//            var stayedUp = true
-//            for _ in 0..<30 {
-//                try? await Task.sleep(for: .seconds(1))
-//                if !isBedEmpty(ble) {
-//                    // User got back in bed — immediately re-fire alarm
-//                    ble.send("FORCE ALARM")
-//                    stayedUp = false
-//                    break
-//                }
-//            }
+//          Watch for 30 s — if pressure returns, re-fire the device alarm
+            var stayedUp = true
+            for _ in 0..<30 {
+                try? await Task.sleep(for: .seconds(1))
+                if !isBedEmpty(ble) {
+                    // User got back in bed — immediately re-fire alarm
+                    ble.send("FORCE ALARM")
+                    stayedUp = false
+                    break
+                }
+            }
 
-//            if stayedUp {
-//                isDeviceAlarmActive = false
-//                await showSuccess()
-//            }
+            if stayedUp {
+                isDeviceAlarmActive = false
+                await showSuccess()
+            }
             // If not stayedUp, the while loop continues with FORCE ALARM active
         }
     }

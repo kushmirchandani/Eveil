@@ -44,7 +44,7 @@ struct OnboardingView: View {
                 // Hero text — anchored near the top
                 VStack(spacing: 12) {
                     Text("Éveil")
-                        .font(.system(size: 48, weight: .thin, design: .default))
+                        .font(.system(size: 48, weight: .semibold, design: .rounded))
                         .foregroundStyle(.white)
                         .tracking(8)
 

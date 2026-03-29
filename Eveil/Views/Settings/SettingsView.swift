@@ -128,6 +128,15 @@ struct SettingsView: View {
                     }
                     .disabled(loudAlarmCountdown != nil || ble?.connectionState != .connected)
 
+                    // Test alarm command
+                    Button {
+                        ble?.send("TEST ALARM")
+                    } label: {
+                        Label("Test Alarm", systemImage: "waveform.badge.exclamationmark")
+                            .foregroundStyle(ble?.connectionState == .connected ? .orange : .secondary)
+                    }
+                    .disabled(ble?.connectionState != .connected)
+
                     if ble?.connectionState != .connected {
                         Text("Connect a device to test the loud alarm.")
                             .font(.caption)

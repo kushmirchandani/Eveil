@@ -164,14 +164,17 @@ struct DeviceView: View {
         }
         .background {
             ZStack {
-                Image("background-1")
-                    .resizable()
-                    .scaledToFill()
-                    .ignoresSafeArea()
+                if let url = Bundle.main.url(forResource: "onboarding", withExtension: "mp4") {
+                    LoopingVideoPlayer(url: url)
+                        .ignoresSafeArea()
+                } else {
+                    Color.black.ignoresSafeArea()
+                }
                 LinearGradient(
                     stops: [
-                        .init(color: .black.opacity(0.45), location: 0),
-                        .init(color: .black.opacity(0.82), location: 1),
+                        .init(color: .black.opacity(0.1), location: 0),
+                        .init(color: .black.opacity(0.3), location: 0.4),
+                        .init(color: .black.opacity(0.85), location: 1),
                     ],
                     startPoint: .top,
                     endPoint: .bottom
@@ -723,6 +726,17 @@ private struct DevToolsSheet: View {
                             .padding(.vertical, 14)
                             .background(Color.red.opacity(0.15), in: RoundedRectangle(cornerRadius: 12))
                             .foregroundStyle(.red)
+                    }
+
+                    Button {
+                        ble.send("ARM")
+                    } label: {
+                        Label("ARM", systemImage: "sensor.tag.radiowaves.forward.fill")
+                            .font(.subheadline.weight(.semibold))
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 14)
+                            .background(Color.green.opacity(0.15), in: RoundedRectangle(cornerRadius: 12))
+                            .foregroundStyle(.green)
                     }
 
                     Button {
