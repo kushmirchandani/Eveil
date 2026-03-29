@@ -24,6 +24,8 @@ struct EveilApp: App {
         ])
     }()
 
+    @Environment(\.scenePhase) private var scenePhase
+
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -32,5 +34,8 @@ struct EveilApp: App {
                 .task { alarmOrchestrator.beginWatching(ble: bleManager) }
         }
         .modelContainer(sharedModelContainer)
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { bleManager.send("ARM") }
+        }
     }
 }
