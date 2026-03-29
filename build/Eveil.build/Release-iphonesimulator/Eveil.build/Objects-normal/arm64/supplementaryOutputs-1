@@ -1,0 +1,12 @@
+{
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Managers/BLEManager.swift" : {
+    "abi-baseline-json" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil.abi.json",
+    "const-values" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.swiftconstvalues",
+    "dependencies" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.d",
+    "diagnostics" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.dia",
+    "objc-header" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-Swift.h",
+    "swiftdoc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil.swiftdoc",
+    "swiftmodule" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil.swiftmodule",
+    "swiftsourceinfo" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil.swiftsourceinfo"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "" : {
+    "const-values" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.swiftconstvalues",
+    "dependencies" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.d",
+    "diagnostics" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.dia",
+    "emit-module-dependencies" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary-emit-module.dia",
+    "pch" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/Eveil-primary.swiftdeps"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/ContentView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/EveilApp.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/EveilApp.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/EveilApp.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/EveilApp.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Managers/BLEManager.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/BLEManager.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/BLEManager.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/BLEManager.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Managers/HealthKitManager.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/HealthKitManager.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/HealthKitManager.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/HealthKitManager.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Managers/WakeBufferEstimator.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/WakeBufferEstimator.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/WakeBufferEstimator.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/WakeBufferEstimator.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Models/AlarmConfig.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmConfig.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmConfig.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmConfig.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Models/CalibrationProfile.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/CalibrationProfile.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/CalibrationProfile.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/CalibrationProfile.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Models/SleepSession.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepSession.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepSession.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepSession.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Alarm/AlarmView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AlarmView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Device/DeviceView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/DeviceView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/DeviceView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/DeviceView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/LaunchScreenView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LaunchScreenView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LaunchScreenView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LaunchScreenView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/AgeInputView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AgeInputView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AgeInputView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/AgeInputView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/GreetingTransitionView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GreetingTransitionView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GreetingTransitionView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GreetingTransitionView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/LoopingVideoPlayer.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LoopingVideoPlayer.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LoopingVideoPlayer.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/LoopingVideoPlayer.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/MorningStrugglesView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/MorningStrugglesView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/MorningStrugglesView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/MorningStrugglesView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/NameInputView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/NameInputView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/NameInputView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/NameInputView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/OnboardingView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/OnboardingView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/PermissionsView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PermissionsView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PermissionsView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PermissionsView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/PreparationTimeView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PreparationTimeView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PreparationTimeView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/PreparationTimeView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Settings/SettingsView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Sleep/SleepView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/SleepView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Today/TodayView.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/TodayView.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/TodayView.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/TodayView.o"
+  },
+  "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/kmirchandani/Developer/Eveil/build/Eveil.build/Release-iphonesimulator/Eveil.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

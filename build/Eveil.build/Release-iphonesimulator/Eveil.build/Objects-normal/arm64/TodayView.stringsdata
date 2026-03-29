@@ -1,0 +1,224 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Today/TodayView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "You slept ",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@%@ ",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "last night.",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 249
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome back.",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nothing's scheduled tomorrow. Your alarm opens at ",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@%@.",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your slate is clear tomorrow.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "at ",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@%@.",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your day tomorrow starts with ",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "at ",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 232
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@%@ ",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "— wake at ",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 303
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device connected",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device not connected",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set up",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add events to your calendar and they'll appear here.",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Events Tomorrow",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 579
+        }
+      },
+      {
+        "comment": "",
+        "key": "What's the earliest event",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 564
+        }
+      },
+      {
+        "comment": "",
+        "key": "you need to be up for?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 566
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 658
+        }
+      },
+      {
+        "comment": "",
+        "key": "How early do you want to wake?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 729
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min before event",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 783
+        }
+      },
+      {
+        "comment": "",
+        "key": "Drag the ruler to adjust prep time",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 791
+        }
+      },
+      {
+        "comment": "",
+        "key": "Suggested",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 714
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 803
+        }
+      }
+    ]
+  },
+  "version": 1
+}

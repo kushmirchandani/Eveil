@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/PermissionsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Access Granted",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 216
+        }
+      }
+    ]
+  },
+  "version": 1
+}

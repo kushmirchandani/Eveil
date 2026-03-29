@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		56A495AC2F782C7E001076C4 /* onboarding.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 56A495AB2F782C7E001076C4 /* onboarding.mp4 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		56A4957A2F77656C001076C4 /* Eveil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eveil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A495AB2F782C7E001076C4 /* onboarding.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onboarding.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -47,6 +52,7 @@
 			children = (
 				56A4957C2F77656C001076C4 /* Eveil */,
 				56A4957B2F77656C001076C4 /* Products */,
+				56A495AB2F782C7E001076C4 /* onboarding.mp4 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A495AC2F782C7E001076C4 /* onboarding.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +157,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eveil/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Éveil uses Bluetooth to communicate with the under-mattress sensor device.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Éveil reads your first event each morning to calculate the latest you can sleep in and set your alarm automatically.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Éveil reads your sleep stages, heart rate, and HRV to improve alarm timing and generate accurate sleep reports.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Éveil writes your sleep session summaries back to Apple Health so they appear alongside your other health data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Éveil uses your location to show current weather in your morning briefing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -184,6 +196,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Eveil/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Éveil uses Bluetooth to communicate with the under-mattress sensor device.";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Éveil reads your first event each morning to calculate the latest you can sleep in and set your alarm automatically.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Éveil reads your sleep stages, heart rate, and HRV to improve alarm timing and generate accurate sleep reports.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Éveil writes your sleep session summaries back to Apple Health so they appear alongside your other health data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Éveil uses your location to show current weather in your morning briefing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

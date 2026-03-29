@@ -1,0 +1,40 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/PreparationTimeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "How much time do you need between waking up and leaving?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "min",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 147
+        }
+      }
+    ]
+  },
+  "version": 1
+}

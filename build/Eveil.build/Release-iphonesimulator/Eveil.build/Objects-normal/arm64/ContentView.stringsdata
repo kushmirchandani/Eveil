@@ -1,0 +1,40 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Today",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sleep",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Alarm",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device",
+        "location": {
+          "startingColumn": 17,
+          "startingLine": 47
+        }
+      }
+    ]
+  },
+  "version": 1
+}

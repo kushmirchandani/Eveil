@@ -1,0 +1,312 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Device/DeviceView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Device",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Sensor",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calibration",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hardware",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last calibrated",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not calibrated",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calibrated",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Run Calibration",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Firmware",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Signal",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "—",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Developer Tools",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan for Device",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Disconnect",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "Éveil Sensor",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "Synced",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "Waiting",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld dBm)",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pressure Zones",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "Z%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "Command…",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "→",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "←",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calibration",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 458
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 480
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 480
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 496
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Device",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 601
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nearby Devices",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 578
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning for devices…",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 562
+        }
+      },
+      {
+        "comment": "",
+        "key": "Make sure your Éveil sensor is powered on and nearby.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 572
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 605
+        }
+      },
+      {
+        "comment": "",
+        "key": "Developer Tools",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 659
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fire Alarm",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 631
+        }
+      },
+      {
+        "comment": "",
+        "key": "Kill Alarm",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 642
+        }
+      }
+    ]
+  },
+  "version": 1
+}

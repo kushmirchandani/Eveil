@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kmirchandani/Developer/Eveil/build/Release-iphonesimulator/Eveil.app/Eveil'
+relocations:     []
+...

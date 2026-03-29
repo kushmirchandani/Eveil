@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/GreetingTransitionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Great to meet you,",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,248 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Sleep/SleepView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sleep",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading sleep data…",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "h",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "m",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 404
+        }
+      },
+      {
+        "comment": "",
+        "key": "12am",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 429
+        }
+      },
+      {
+        "comment": "",
+        "key": "4am",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 430
+        }
+      },
+      {
+        "comment": "",
+        "key": "8am",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %lld%% of night",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 553
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 671
+        }
+      },
+      {
+        "comment": "",
+        "key": "h",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 673
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 674
+        }
+      },
+      {
+        "comment": "",
+        "key": "m",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 676
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 680
+        }
+      },
+      {
+        "comment": "",
+        "key": "min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 682
+        }
+      },
+      {
+        "comment": "",
+        "key": "Health Metrics",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 764
+        }
+      },
+      {
+        "comment": "",
+        "key": "No data yet",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 819
+        }
+      },
+      {
+        "comment": "",
+        "key": "Average time asleep",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 816
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 822
+        }
+      },
+      {
+        "comment": "",
+        "key": "h",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 824
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 825
+        }
+      },
+      {
+        "comment": "",
+        "key": "min",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 827
+        }
+      },
+      {
+        "comment": "",
+        "key": "Filters",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 841
+        }
+      },
+      {
+        "comment": "",
+        "key": "PERSONAL INSIGHTS",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 869
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Nights",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 911
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldh %lldm",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 932
+        }
+      },
+      {
+        "comment": "",
+        "key": "Woke %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 941
+        }
+      },
+      {
+        "comment": "",
+        "key": "No sleep data found",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 998
+        }
+      },
+      {
+        "comment": "",
+        "key": "Make sure Apple Health is connected\nand you've worn your Apple Watch to bed.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1000
+        }
+      }
+    ]
+  },
+  "version": 1
+}

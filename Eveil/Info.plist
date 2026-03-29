@@ -2,9 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>eveil</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>com.eveil.app</string>
+		</dict>
+	</array>
+	<key>NSAlarmKitUsageDescription</key>
+	<string>Éveil uses alarms to wake you up at the right time in your sleep cycle.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
+		<string>bluetooth-central</string>
+		<string>processing</string>
+		<string>fetch</string>
+		<string>audio</string>
 	</array>
 </dict>
 </plist>

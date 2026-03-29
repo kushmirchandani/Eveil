@@ -1,31 +1,35 @@
-//
-//  EveilApp.swift
-//  Eveil
-//
-//  Created by Kush Mirchandani on 3/27/26.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct EveilApp: App {
+    @State private var bleManager = BLEManager()
+    @State private var alarmOrchestrator = AlarmOrchestrator()
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            SleepSession.self,
+            AlarmConfig.self,
+            CalibrationProfile.self,
         ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+        // Try persistent store first; fall back to in-memory if the store is incompatible
+        // (common during development when models change). Delete the app to reset.
+        if let container = try? ModelContainer(for: schema, configurations: [
+            ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+        ]) {
+            return container
         }
+        return try! ModelContainer(for: schema, configurations: [
+            ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
+        ])
     }()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(bleManager)
+                .environment(alarmOrchestrator)
+                .task { alarmOrchestrator.beginWatching(ble: bleManager) }
         }
         .modelContainer(sharedModelContainer)
     }

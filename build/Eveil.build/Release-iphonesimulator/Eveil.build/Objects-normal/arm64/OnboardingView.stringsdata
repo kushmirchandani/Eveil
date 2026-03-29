@@ -1,0 +1,32 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/OnboardingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Éveil",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "The alarm that only stops\nwhen you leave the bed.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "By continuing you agree to our Privacy Policy.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 78
+        }
+      }
+    ]
+  },
+  "version": 1
+}

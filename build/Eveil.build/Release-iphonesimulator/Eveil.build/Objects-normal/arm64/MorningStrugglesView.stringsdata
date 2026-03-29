@@ -1,0 +1,40 @@
+{
+  "source": "/Users/kmirchandani/Developer/Eveil/Eveil/Views/Onboarding/MorningStrugglesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "What makes mornings hard for you? Select all that apply.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@,",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "let's customize\nyour experience",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 84
+        }
+      }
+    ]
+  },
+  "version": 1
+}
