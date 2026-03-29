@@ -2,7 +2,7 @@
 
 **The alarm that only stops when you leave the bed.**
 
-Eveil is a hardware-software ecosystem designed for chronic oversleepers. Unlike traditional phone alarms that can be snoozed or ignored, Eveil uses **Force Sensitive Resistors (FSRs)** embedded in a bed mat to verify you are physically out of bed before the alarm stops. The iOS companion app pairs with the device over BLE, tracks your sleep via HealthKit, reads your calendar to calculate smart wake windows, and runs an escalating alarm system that cannot be dismissed by tapping a screen.
+Eveil is a hardware-software ecosystem designed for chronic oversleepers. Unlike traditional phone alarms that can be snoozed or ignored, Eveil uses **Force Sensitive Resistors (FSRs)** embedded in a bed device to verify you are physically out of bed before the alarm stops. The iOS companion app pairs with the device over BLE, tracks your sleep via HealthKit, reads your calendar to calculate smart wake windows, and runs an escalating alarm system that cannot be dismissed by tapping a screen.
 
 ![Eveil](Eveil.png)
 
@@ -68,7 +68,7 @@ Eveil is a hardware-software ecosystem designed for chronic oversleepers. Unlike
 ## Hardware
 
 ### Components
-
+![Éveil Components](components.jpeg)     
 | Qty | Component | Purpose |
 |-----|-----------|---------|
 | 1 | ESP32 | BLE + high-level logic |
@@ -81,7 +81,7 @@ Eveil is a hardware-software ecosystem designed for chronic oversleepers. Unlike
 ### Wiring
 
 #### Arduino Pinout
-
+ ![Éveil System Diagram](Eveil%20Diagram%20Visual.png)           
 The 4 FSRs are arranged across the mat to detect full-body weight distribution. All four must read zero for the alarm to stop.
 
 | Component | Pin | Type |
@@ -282,8 +282,6 @@ AlarmKit fires system alarm
 3. Build and run on a physical iOS device (BLE requires real hardware)
 4. On first launch, sign in with Apple and grant permissions through the onboarding flow
 5. Pair your Eveil hardware device from the **MyEveil** tab
-
-> **Note:** The simulator cannot use CoreBluetooth. A physical device is required for full functionality.
 
 ---
 
